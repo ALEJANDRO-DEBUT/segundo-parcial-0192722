@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #191a23;
+    background: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 7%;
+}
+
+.navbar h1 {
+    font-size: 30px;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #191a23;
+}
+
+button {
+    background: #191a23;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 16px 22px;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px 7%;
+    gap: 35px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h2 {
+    font-size: 48px;
+    margin-bottom: 25px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.hero-image {
+    flex: 1;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+}
+
+.services, .about, .contact {
+    padding: 70px 7%;
+    text-align: center;
+}
+
+.services h2, .about h2, .contact h2 {
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #191a23;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero-text h2 {
+        font-size: 36px;
+    }
+}
+/* ===== IDENTIDAD VISUAL NEXORA ===== */
+
+
