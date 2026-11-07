@@ -309,12 +309,18 @@ footer {
 
 
 .welcome-screen {
-    opacity: 5;
+    opacity: 1;
     visibility: visible;
     transition: opacity 0.8s ease, visibility 0.8s ease;
 }
 
-.welcome-screen.hide {
+.welcome-screen {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.8s ease, visibility 0.8s ease;
+}
+
+body:has(#inicio:target) .welcome-screen {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
